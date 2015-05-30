@@ -4,7 +4,7 @@
   "name": "StreetView Minify UI",
   "description": "Minify certain Street View UI elements by clicking this extension's button. Click the button again to show the UI elements.",
   "homepage_url": "http://komasurfer.com/",
-  "version": "1.2",
+  "version": "1.3",
   "permissions": ["activeTab"],
   "background": {
         "persistent": false,

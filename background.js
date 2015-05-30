@@ -13,8 +13,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     //if (urlRegex.test(tab.url)) {
 
         /* send a message specifying a callback too */
-        chrome.tabs.sendMessage(tab.id, { text: "minify_UI" },
-                                showMessg);
+        chrome.tabs.sendMessage(tab.id, { text: "minify_UI" }, showMessg);
 
     //}
 });
